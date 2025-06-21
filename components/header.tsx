@@ -6,10 +6,11 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 import { cn } from '@/lib/utils'
 import { useScroll } from 'motion/react'
+import Image from 'next/image'
 
 const menuItems = [
-  { name: 'About', href: '#link' },
-  { name: 'Features', href: '#link' },
+  { name: 'About', href: '#about' },
+  { name: 'Features', href: '#universities' },
   { name: 'Solution', href: '#link' },
   { name: 'Pricing', href: '#link' },
 ]
@@ -85,14 +86,35 @@ export const HeroHeader = () => {
                   variant="outline"
                   size="sm">
                   <Link href="#">
-                    <span>Login</span>
+                    <span>send request form</span>
                   </Link>
                 </Button>
                 <Button
                   asChild
+                  variant="outline"
                   size="sm">
                   <Link href="#">
-                    <span>Sign Up</span>
+                    <Image
+                      src="/flag-for-united-kingdom-svgrepo-com.svg"
+                      className="size-full object-cover object-left-top dark:mix-blend-lighten"
+                      alt="english"
+                      width={12}
+                      height={12}
+                    />
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  variant="outline"
+                  size="sm">
+                  <Link href="#">
+                    <Image
+                      src="/flag-for-iran-svgrepo-com.svg"
+                      className="size-full object-cover object-left-top dark:mix-blend-lighten"
+                      alt="english"
+                      width={12}
+                      height={12}
+                    />
                   </Link>
                 </Button>
               </div>

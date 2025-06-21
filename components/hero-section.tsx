@@ -91,7 +91,7 @@ export default function HeroSection() {
                     size="lg"
                     variant="ghost"
                     className="h-10.5 rounded-xl px-5 text-base">
-                    <Link href="#link">
+                    <Link href="#universities">
                       <span className="text-nowrap">Find universities</span>
                     </Link>
                   </Button>
