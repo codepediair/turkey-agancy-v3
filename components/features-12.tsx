@@ -1,6 +1,6 @@
 'use client'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { ChartBarIncreasingIcon, Database, Fingerprint, IdCard, Tally1, Tally2, Tally3, Tally4 } from 'lucide-react'
+import { Tally1, Tally2, Tally3, Tally4 } from 'lucide-react'
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'

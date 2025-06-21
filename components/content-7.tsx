@@ -1,4 +1,4 @@
-import { Cpu, Zap, HeartHandshake } from 'lucide-react'
+import { Zap, HeartHandshake } from 'lucide-react'
 import Image from 'next/image'
 
 export default function ContentSection() {
